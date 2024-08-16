@@ -27,9 +27,15 @@
     <ClInclude Include="src\sunflower\core.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\sunflower\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\sunflower\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sunflower\log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
