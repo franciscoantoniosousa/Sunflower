@@ -2,13 +2,9 @@
 
 class Sandbox : public Sunflower::Application {
 public:
-	Sandbox() {
 
-	}
-
-	~Sandbox() {
-
-	}
+	Sandbox() {}
+	~Sandbox() {}
 
 };
 
