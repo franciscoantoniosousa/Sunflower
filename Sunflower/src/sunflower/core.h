@@ -1,7 +1,5 @@
 #pragma once
 
-
-
 #ifdef SF_PLATFORM_WINDOWS
 	#ifdef SF_BUILD_DLL
 		#define SUNFLOWER_API __declspec(dllexport)

@@ -8,12 +8,31 @@
 
 namespace Sunflower {
 
+	/// <summary>
+	/// Class Log, Init two loggers that will print important messages to the user (core and client side)
+	/// </summary>
+	/// <version author="Francisco Sousa" date="8/16/2024" version="2.0"/>
 	class SUNFLOWER_API Log
 	{
 	public:
+		/// <summary>
+		/// Initializes this instance.
+		/// </summary>
+		/// <version author="Francisco Sousa" date="8/16/2024" version="0.1"/>
 		static void Init();
 
+		/// <summary>
+		/// Gets the core logger.
+		/// </summary>
+		/// <returns></returns>
+		/// <version author="Francisco Sousa" date="8/16/2024" version="0.1"/>
 		inline static std::shared_ptr<spdlog::logger>& GetCoreLogger() { return s_CoreLogger; }
+
+		/// <summary>
+		/// Gets the client logger.
+		/// </summary>
+		/// <returns></returns>
+		/// <version author="Francisco Sousa" date="8/16/2024" version="0.1"/>
 		inline static std::shared_ptr<spdlog::logger>& GetClientLogger() { return  s_ClientLogger; }
 
 	private:
