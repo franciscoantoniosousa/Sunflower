@@ -1,3 +1,10 @@
 ﻿.vs
 bin
 bin-int
+Sunflower.sln
+Sunflower/Sunflower.vcxproj.user
+Sunflower/Sunflower.vcxproj
+Sunflower/Sunflower.vcxproj.filters
+Sandbox/Sandbox.vcxproj
+Sandbox/Sandbox.vcxproj.filters
+Sandbox/Sandbox.vcxproj.user

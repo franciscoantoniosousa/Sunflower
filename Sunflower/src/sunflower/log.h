@@ -4,7 +4,7 @@
 
 #include "core.h"
 #include "spdlog/spdlog.h"
-
+#include "spdlog/fmt/ostr.h"
 
 namespace Sunflower {
 
@@ -50,9 +50,9 @@ namespace Sunflower {
 #define SF_CORE_FATAL(...)		::Sunflower::Log::GetCoreLogger()->fatal(__VA_ARGS__)
 
 // Client Logger Macros
-#define SF_CLIENT_TRACE(...)	::Sunflower::Log::GetClientLogger()->trace(__VA_ARGS__)
-#define SF_CLIENT_WARN(...)		::Sunflower::Log::GetClientLogger()->warn(__VA_ARGS__)
-#define SF_CLIENT_INFO(...)		::Sunflower::Log::GetClientLogger()->info(__VA_ARGS__)
-#define SF_CLIENT_ERROR(...)	::Sunflower::Log::GetClientLogger()->error(__VA_ARGS__)
-#define SF_CLIENT_FATAL(...)	::Sunflower::Log::GetClientLogger()->fatal(__VA_ARGS__)
+#define SF_TRACE(...)	::Sunflower::Log::GetClientLogger()->trace(__VA_ARGS__)
+#define SF_WARN(...)	::Sunflower::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define SF_INFO(...)	::Sunflower::Log::GetClientLogger()->info(__VA_ARGS__)
+#define SF_ERROR(...)	::Sunflower::Log::GetClientLogger()->error(__VA_ARGS__)
+#define SF_FATAL(...)	::Sunflower::Log::GetClientLogger()->fatal(__VA_ARGS__)
 

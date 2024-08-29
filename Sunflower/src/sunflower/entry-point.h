@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
 
 	Sunflower::Log::Init();
 	SF_CORE_WARN("Initialized Core Log!");
-	SF_CLIENT_INFO("Initialized Client Log!");
+	SF_INFO("Initialized Client Log!");
 
 	auto app = Sunflower::CreaterApplication();
 	app->Run();
