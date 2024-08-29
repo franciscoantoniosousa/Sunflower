@@ -1,7 +1,7 @@
 #pragma once
 
 // Only to be used by client side
-#include <stdio.h>
+#include "sunflower-pch.h"
 #include "sunflower/application.h"
 #include "sunflower/Log.h"
 

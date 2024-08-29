@@ -18,6 +18,9 @@ project "Sunflower"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "sunflower-pch.h"
+	pchsource "Sunflower/src/sunflower-pch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
